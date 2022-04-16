@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Eugene32/react-testing/static/css/main.a2272dd2.css",
+    "main.js": "/Eugene32/react-testing/static/js/main.a5856d51.js",
+    "static/js/787.60266217.chunk.js": "/Eugene32/react-testing/static/js/787.60266217.chunk.js",
+    "static/media/Photo 1.JPG": "/Eugene32/react-testing/static/media/Photo 1.79f630078ce4cfc11bbb.JPG",
+    "static/media/nav-background.jpg": "/Eugene32/react-testing/static/media/nav-background.0e1228b0c466953ea5e8.jpg",
+    "static/media/SQL-image.jpeg": "/Eugene32/react-testing/static/media/SQL-image.f80920c9911642b6184e.jpeg",
+    "static/media/jscript-image.jpeg": "/Eugene32/react-testing/static/media/jscript-image.85290a9cafce8938c0fc.jpeg",
+    "index.html": "/Eugene32/react-testing/index.html",
+    "main.a2272dd2.css.map": "/Eugene32/react-testing/static/css/main.a2272dd2.css.map",
+    "main.a5856d51.js.map": "/Eugene32/react-testing/static/js/main.a5856d51.js.map",
+    "787.60266217.chunk.js.map": "/Eugene32/react-testing/static/js/787.60266217.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2272dd2.css",
+    "static/js/main.a5856d51.js"
+  ]
+}
