@@ -4,8 +4,8 @@ import Avatar from '../assets/images/Photo 1.JPG';
 const AboutMe = () => {
 
     return (
-        <div className='my-padding-top w-auto'>
-            <section id="about-me" className="section">
+        <div className='my-padding-top w-auto '>
+            <section id="about-me" className="section box">
                 <span className='title is-1 level-left ml-6'>About Me</span>
                 <div className="container">
                     <div class="align-items-start">
