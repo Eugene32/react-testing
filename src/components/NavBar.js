@@ -6,8 +6,8 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <>
             <h4>Reynan Kanindot</h4>
-            <ul className="row navbar-nav text-end align-items">
-                <div>
+            <ul className="nav ">
+              
                     <li className="nav-item">
                         <a
                             href="#about"
@@ -49,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             Resume'
                         </a>
                     </li>
-                </div>
+        
             </ul>
         </>
     );
