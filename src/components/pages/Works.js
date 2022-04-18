@@ -1,13 +1,7 @@
 import React from 'react';
-import TravelApp from '../components/assets/images/Travel-App-demo.png';
-import FindPet from '../components/assets/images/Find-A-Pet.png';
-
-
-
+import TravelApp from '../assets/images/Travel-App-demo.png';
+import FindPet from '../assets/images/Find-A-Pet.png';
 const Works = () => {
-
-    
-
     return (
         <div>
             <section id="works" class="columns section ">
