@@ -5,10 +5,7 @@ const Works = () => {
     return (
         <div>
             <section id="works" class="columns section ">
-                <aside class="column is-one-fifth-tablet level">
-                    <span class="title is-1 level-right">Works</span>
-
-                </aside>
+             
                 <div class="column">
 
                     <div class="container box my-background ">
