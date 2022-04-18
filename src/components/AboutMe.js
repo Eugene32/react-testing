@@ -6,7 +6,7 @@ import CV from '../components/assets/images/CV-Pic.png';
 const AboutMe = () => {
 
     return (
-        <div>
+        <div className='my-padding-top'>
             <section id="about-me" className="section columns">
 
                 <aside className="column is-one-fifth-tablet level ">
