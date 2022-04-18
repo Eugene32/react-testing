@@ -1,6 +1,9 @@
 import React from 'react';
 import TravelApp from '../assets/images/Travel-App-demo.png';
 import FindPet from '../assets/images/Find-A-Pet.png';
+import '../assets/css/style.css'
+
+
 const Works = () => {
     return (
         <div>
