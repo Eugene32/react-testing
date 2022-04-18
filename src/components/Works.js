@@ -1,4 +1,6 @@
 import React from 'react';
+import TravelApp from '../components/assets/images/Travel-App-demo.png';
+import FindPet from '../components/assets/images/Find-A-Pet.png';
 
 
 
@@ -29,12 +31,12 @@ const Works = () => {
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
                                     <a href="https://eugene32.github.io/Travel-Application/"
-                                        target="_blank" rel="noreferrer"><img src="../assets/images/Travel-App-demo.png"
+                                        target="_blank" rel="noreferrer"><img src={TravelApp}
                                             class="d-block w-100 " alt="Travel-App_pic"></img></a>
                                 </div>
                                 <div class="carousel-item ">
                                     <a href="https://stormy-anchorage-52853.herokuapp.com/" target="_blank" rel="noreferrer">
-                                        <img src="../assets/images/Find-A-Pet.png" class="d-block w-100"
+                                        <img src={FindPet} class="d-block w-100"
                                             alt="Find-A-Pet_pic"></img></a>
                                 </div>
 

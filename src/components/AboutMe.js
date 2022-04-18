@@ -1,5 +1,6 @@
 import React from 'react';
-import Avatar from '../components/assets/images/Photo 1.JPG'
+import Avatar from '../components/assets/images/Photo 1.JPG';
+import CV from '../components/assets/images/CV-Pic.png';
 
 
 const AboutMe = () => {
@@ -20,7 +21,7 @@ const AboutMe = () => {
 
                     <div className="column box is-one-third-tablet card my-card-height ">
                         <a href="./assets/docs/cv-Reynan Kanindot.doc"> <img className="is-2"
-                            src="../assets/images/CV-Pic.png" alt="cv-pic"></img></a>
+                            src={CV} alt="cv-pic"></img></a>
 
                     </div>
                 </div>
