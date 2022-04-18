@@ -1,8 +1,8 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
-import Works from './components/Works';
-import ContactMe from './components/ContactMe';
+// import Works from './components/Works';
+// import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 
 
@@ -14,8 +14,8 @@ function App() {
         <div className='column is-align-content-center'>
           <div>
             <AboutMe />
-            <Works />
-            <ContactMe />
+            {/* <Works /> */}
+            {/* <ContactMe /> */}
           </div>
 
         </div>
