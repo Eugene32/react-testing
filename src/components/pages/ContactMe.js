@@ -5,15 +5,37 @@ const ContactMe = (props) => {
     return (
         <form>
             <div className="form-group">
-                <label htmlFor="search">Username:</label>
+                <label htmlFor="username">Username:</label>
                 <input
                     onChange={props.handleInputChange}
                     value={props.value}
-                    name="search"
+                    name="username"
                     type="text"
-                    className="form-control"
+                    className="form-control w-20"
                     placeholder="Username"
                     id="search"
+                />
+                <br />
+                <label htmlFor="email">Email:</label>
+                <input
+                    onChange={props.handleInputChange}
+                    value={props.value}
+                    name="email"
+                    type="text"
+                    className="form-control w-20"
+                    placeholder="Email"
+                    id="email"
+                />
+                <br />
+                <label htmlFor="message">Message:</label>
+                <textarea
+                    onChange={props.handleInputChange}
+                    value={props.value}
+                    name="message"
+                    type="text"
+                    className="form-control"
+                    placeholder="Type your message here"
+                    id="message"
                 />
                 <br />
                 <button
