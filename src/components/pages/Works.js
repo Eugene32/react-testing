@@ -1,14 +1,16 @@
 import React from 'react';
 import TravelApp from '../assets/images/Travel-App-demo.png';
 import FindPet from '../assets/images/Find-A-Pet.png';
-import '../assets/css/style.css'
+import CodeCard from './CodeCard';
+import '../assets/css/style.css';
+
 
 
 const Works = () => {
     return (
         <div>
             <section id="works" class="columns section ">
-             
+
                 <div class="column">
 
                     <div class="container box my-background ">
@@ -47,77 +49,8 @@ const Works = () => {
                             </button>
                         </div>
                     </div>
-                    <div class="container columns is-align-content-space-between ">
-                        <div class="column">
-
-                            <div style={{height: "200px"}} class="container box my-g1-s1 text-center ">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            <a href="https://eugene32.github.io/Web-DevOp-Quiz/" target="blank"
-                                                class="text-white bg-dark px-4 rounded">Web-DevOp-Quiz</a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <a href="https://eugene32.github.io/Password-Generator/"
-                                                target="blank"
-                                                class="text-white bg-dark px-2 rounded">Password-Generator</a>
-                                        </h3>
-                                    </li>
-                                    <li>
-
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                            <div style={{height: "200px"}} class="container box my-g1-s2 text-center">
-                                <ul>
-                                    <li>
-                                        <h3><a href="https://github.com/Eugene32/Employee-Tracker"
-                                            target="blank"
-                                            class="text-white bg-dark px-2 rounded">Employee-Tracker</a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3><a href="https://github.com/Eugene32/ECommerce-Back-End"
-                                            target="blank"
-                                            class="text-white bg-dark px-2 rounded">ECommerce-Back-End</a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        {/* <h3><a href=""></a></h3> */}
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <div class="column">
-
-                            <div style={{height: "200px"}} class="container box my-g2-s1 text-center">
-
-                            </div>
-                            <div style={{height: "200px"}} class="container box  my-g2-s2 text-center">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            <a href="https://eugene32.github.io/Weather-Dashboard/"
-                                                target="blank"
-                                                class="text-white bg-dark px-2 rounded">Weather-Dashboard</a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            {/* <a href=""></a> */}
-                                        </h3>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-
+                    <div >
+                        <CodeCard />
                     </div>
 
                 </div>
