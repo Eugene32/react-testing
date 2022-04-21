@@ -6,7 +6,7 @@ export const CodeItems = [
         title: 'Web-DevOp-Quiz',
         githublink: 'https://github.com/Eugene32/Web-DevOp-Quiz',
         applink: 'https://eugene32.github.io/Web-DevOp-Quiz/',
-        myBackground: "../assets/images/react.png"
+        myBackground: 'url("../assets/images/react.png")'
 
     },
     {
