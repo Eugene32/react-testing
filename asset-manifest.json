@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/react-testing/static/css/main.b93eb6ad.css",
-    "main.js": "/react-testing/static/js/main.a20b8969.js",
-    "static/js/787.60266217.chunk.js": "/react-testing/static/js/787.60266217.chunk.js",
+    "main.js": "/react-testing/static/js/main.38bdad34.js",
     "static/media/Photo 1.JPG": "/react-testing/static/media/Photo 1.79f630078ce4cfc11bbb.JPG",
+    "static/media/Travel-App-demo.png": "/react-testing/static/media/Travel-App-demo.2750bc4525968bb4381f.png",
+    "static/media/Find-A-Pet.png": "/react-testing/static/media/Find-A-Pet.01cd66f4937f6ef33a78.png",
     "static/media/nav-background.jpg": "/react-testing/static/media/nav-background.0e1228b0c466953ea5e8.jpg",
     "static/media/SQL-image.jpeg": "/react-testing/static/media/SQL-image.f80920c9911642b6184e.jpeg",
     "static/media/jscript-image.jpeg": "/react-testing/static/media/jscript-image.85290a9cafce8938c0fc.jpeg",
+    "static/media/cv.docx": "/react-testing/static/media/cv.08b613495be41785879b.docx",
     "index.html": "/react-testing/index.html",
     "main.b93eb6ad.css.map": "/react-testing/static/css/main.b93eb6ad.css.map",
-    "main.a20b8969.js.map": "/react-testing/static/js/main.a20b8969.js.map",
-    "787.60266217.chunk.js.map": "/react-testing/static/js/787.60266217.chunk.js.map"
+    "main.38bdad34.js.map": "/react-testing/static/js/main.38bdad34.js.map"
   },
   "entrypoints": [
     "static/css/main.b93eb6ad.css",
-    "static/js/main.a20b8969.js"
+    "static/js/main.38bdad34.js"
   ]
 }
