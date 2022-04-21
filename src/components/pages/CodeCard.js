@@ -15,12 +15,16 @@ class CodeCard extends Component {
                     {
                         CodeItems.map((item, index) => {
 
-                            const backImage = item.myBackground;
+                            
+                            const divStyle = {
+                               
+                                backgroundImage: 'url(' + Image + ')',
+                              };
                     
                             return (
 
-                                <div className='col box h-50 text-center bckImg' style={{height: "200px",  backgroundImage: {backImage}}} >
-                                    <img src={item.myBackground} alt='reactphoto'></img>
+                                <div className='col box h-50 text-center bckImg' style={{height: "200px",  backgroundImage: divStyle}} >
+                                    
                                     <div key={index} >
                                         <a href={item.applink} target="_blank" rel="noreferrer">{item.title}</a>
                                         <a href={item.githublink} target="_blank" rel="noreferrer"><i className="fa-brands fa-github-square fa-2xl px-3"></i></a>
