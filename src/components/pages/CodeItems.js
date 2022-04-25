@@ -41,4 +41,4 @@ const CodeItems =
 
 ]
 
-export
+export default CodeItems;
